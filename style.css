@@ -249,13 +249,12 @@ div.foto p{
 
 
 div.aa, div.aaa, div.aa4, div.aa5, div.aa3, div.aa6{
-        display: inline-block;
-        width: 300px;
-        height: 260px;
-        padding:0;
-        margin: 20px;
-        /*float: left ;*/
-        overflow: hidden;
+    display: inline-block;
+    width: 300px;
+    height: 260px;
+    padding: 0;
+    margin: 20px 17px -13px 25px;
+    overflow: hidden;
 
     }
                             /*Lisaped Lisaped Lisaped Lisaped Lisaped Lisaped */
@@ -286,7 +285,7 @@ div.aa, div.aaa, div.aa4, div.aa5, div.aa3, div.aa6{
 
     .Big_lisaped{
         /*display:none;*/
-        max-width: 1200px;
+        max-width: 1080px;
           }
 
     .overlay:target {
@@ -315,7 +314,7 @@ div.aa, div.aaa, div.aa4, div.aa5, div.aa3, div.aa6{
     }
     .Madam{
         /*display:none;*/
-        max-width: 1200px;
+        max-width: 1080px;
     }
     .overlay2:target {
         display: table;
@@ -341,7 +340,7 @@ div.aa, div.aaa, div.aa4, div.aa5, div.aa3, div.aa6{
     }
     .Two_cups{
         /*display:none;*/
-        max-width: 1200px;
+        max-width: 1080px;
     }
     .overlay3:target {
         display: table;
@@ -367,7 +366,7 @@ div.aa, div.aaa, div.aa4, div.aa5, div.aa3, div.aa6{
     }
     .One_cup{
         /*display:none;*/
-        max-width: 1200px;
+        max-width: 1080px;
     }
     .overlay4:target {
         display: table;
@@ -394,7 +393,7 @@ div.aa, div.aaa, div.aa4, div.aa5, div.aa3, div.aa6{
 }
     .Two_lis{
         /*display:none;*/
-        max-width: 1200px;
+        max-width: 1080px;
     }
     .overlay5:target {
         display: table;
@@ -428,7 +427,7 @@ div.aa, div.aaa, div.aa4, div.aa5, div.aa3, div.aa6{
     }
     .Right_lis{
         /*display:none;*/
-        max-width: 1200px;
+        max-width: 1080px;
         max-height: 1000px;
     }
     .overlay6:target {
@@ -569,7 +568,7 @@ div.social{
     width: 90%;
     height: 100px;
     text-align: left;
-    top: -624px;
+    top: -671px;
     background-color: white;
 }
 
@@ -621,10 +620,46 @@ div.social p{
         background-image: url("images/ss_ln.jpg");
 
     }
-    @media screen and (max-width:876px){
+    .clear1{
+        display: block;
+    }
+    @media screen and (max-width:1160px){
 
         .clear1{
-            display: none;
+            display:none;
         }
+.Madam, .Big_lisaped, .One_cup, .Two_cups, .Two_lis, .Right_lis{
+    max-width: 800px;
+}
+    }
+    @media screen and (max-width:860px){
+        .Madam, .Big_lisaped, .One_cup, .Two_cups, .Two_lis, .Right_lis{
+            max-width: 600px;
+        }
+    }
 
+    @media screen and (max-width:650px){
+        .Madam, .Big_lisaped, .One_cup, .Two_cups, .Two_lis, .Right_lis{
+            max-width: 400px;
+        }
+        .form button{
+            left: 50px;
+            top: 7px;
+            width: 100px;
+            height: 40px;
+            font-size: 16px;
+                   }
+        #subscribe{
+            left: -13px;
+            top: 10px;
+            font-size: 15px;
+        }
+        .checkbox{
+            background-color: #989FA8;
+            width: 15px;
+            height: 15px;
+            position: relative;
+            left: -19px;
+            top: 13px;
+        }
     }
