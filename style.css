@@ -9,7 +9,7 @@
     }
     
 header{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
                     /*Структура сайта*/
@@ -69,16 +69,17 @@ hr {
     border: none;
     z-index: 8;
   }
- @font-face {
-font-family: Lato; /* имя шрифта для CSS правил */
-src:local("Lato"), /* проверяем наличие шрифта в ОС пользователя */
-url(lato/lato-bold.ttf); /* если шрифт не установлен, тогда загружаем его по указанному пути */
-url(lato/lato-regular.ttf)
-  }
+ /*@font-face {*/
+/*font-family: Lato; !* имя шрифта для CSS правил *!*/
+/*!*src:local("Lato"), !* проверяем наличие шрифта в ОС пользователя *!*!*/
+/*url(lato/lato-bold.ttf); !* если шрифт не установлен, тогда загружаем его по указанному пути *!*/
+/*url(lato/lato-regular.ttf);*/
+  /*}*/
   @font-face {
-font-family: Lato; /* имя шрифта для CSS правил */
-src: url(lato/lato/lato-regular.ttf); /* проверяем наличие шрифта в ОС пользователя */ local("Lato")
-  }
+        font-family: Lato; /* имя шрифта для CSS правил */
+        src: url(lato/lato/lato-regular.ttf); /* проверяем наличие шрифта в ОС пользователя */
+  /*local("Lato")*/
+    }
  /*p{*/
      /*text-align: center;*/
      /*font-size: 96px;*/
@@ -140,7 +141,7 @@ div.header a{
 		text-align: center;}
 	
 div.line {
-    width: 90%;
+    width: 80%;
     /*height: auto;*/
     margin: 0 auto;
     padding: 24px 0;
@@ -174,7 +175,7 @@ div.line h1{
 .icons{
 
     text-align: center;
-    width: 90%;
+    width: 80%;
     background-color: #FFFFFF;
     margin: 0 auto;
     /*height: 2208px;*/
@@ -217,7 +218,7 @@ div.icons h3{
 
 
 div.foto{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     /* padding: 20px 0; */
     clear: both;
@@ -440,7 +441,7 @@ div.aa, div.aaa, div.aa4, div.aa5, div.aa3, div.aa6{
 
 .footer{
     text-align: center;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
        }
 .fon{
@@ -565,7 +566,7 @@ textarea::placeholder{
 div.social{
     margin: 0 auto;
     position: relative;
-    width: 90%;
+    width: 80%;
     height: 100px;
     text-align: left;
     top: -671px;
@@ -623,7 +624,7 @@ div.social p{
     .clear1{
         display: block;
     }
-    @media screen and (max-width:1160px){
+    @media screen and (max-width:1310px){
 
         .clear1{
             display:none;
