@@ -77,7 +77,7 @@ hr {
   /*}*/
   @font-face {
         font-family: Lato; /* имя шрифта для CSS правил */
-        src: url(lato/lato/lato-regular.ttf); /* проверяем наличие шрифта в ОС пользователя */
+        src: url(lato/Lato/lato-regular.ttf); /* проверяем наличие шрифта в ОС пользователя */
   /*local("Lato")*/
     }
  /*p{*/
